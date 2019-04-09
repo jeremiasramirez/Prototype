@@ -2,7 +2,7 @@ body{
     max-width: 1370px;
     padding:0;
     margin:0;
-    min-height: 100vh;
+    
 }
 :root{
     --color__text: #ddd;
@@ -497,4 +497,30 @@ body{
     .card{
         width: 330px;
     }
+}
+.footer__list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.footer__item{
+    list-style: none;
+      
+}
+.footer__link{
+      margin: .5em 1em .5em 1em;
+}
+@media screen and (max-width: 660px){
+.footer__list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.footer__link{
+      margin: .2em;
+      display: block;
+}
 }
